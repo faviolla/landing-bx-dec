@@ -1,0 +1,275 @@
+@media (max-width: 1024px) {
+  .promo {
+    height: 740px;
+    background-position: 60% 0;
+    overflow: hidden;
+    &-text {
+      padding: 16px 0 0;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .slogan {
+    font-size: 90px;
+    line-height: 108px;
+    width: 60%;
+    margin: 0 0 126px;
+  }
+  .sale-screen-blue {
+    padding: 80px 0 100px;
+    .snowballs {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: static;
+      .item01,
+      .item02,
+      .item03 {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0 50px 0 0;
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+      .item01 {
+        width: 208px;
+        height: 208px;
+      }
+      .item02 {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+  .pre-description {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .text-block {
+    float: none;
+    width: 100%;
+  }
+  .img-block {
+    float: none;
+    width: 100%;
+    margin: 0 0 40px;
+    .snowballs {
+      width: 100%;
+      position: static;
+    }
+  }
+  .sale-screen-dark-blue {
+    padding: 90px 0 100px;
+    .snowballs {
+      display: flex;
+      align-items: center;
+      .item01,
+      .item02,
+      .item03 {
+        position: static;
+        margin: 0 50px 0 0;
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+      .item01 {
+        width: 208px;
+        height: 208px;
+      }
+      .item02 {
+        width: 130px;
+        height: 130px;
+      }
+    }
+    .description {
+      margin-right: 0;
+    }
+  }
+  .screen05 {
+    .text-block {
+      width: 100%;
+    }
+    .description {
+      margin-right: 0;
+    }
+  }
+  .screen06 {
+    .text-block {
+      width: 100%;
+    }
+    .img-block {
+      width: 100%;
+    }
+  }
+  .sale-screen-img {
+    padding: 100px 0;
+    background-position: 45% 0;
+    &:before {
+      background-position: 45% 100%;
+      background-size: 155% auto;
+    }
+    .text-block {
+      width: 89%;
+      padding: 0 30px 0 0;
+    }
+  }
+  .share-details {
+    width: 100%;
+    padding: 0 30px 0 0;
+  }
+  .screen07 {
+    padding: 80px 0 70px;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+
+@media (max-width: 650px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .promo {
+    height: auto;
+    background-position: 85% 0;
+    background-size: 180% auto;
+  }
+  .promo-text {
+    margin: 245px 0 0;
+    padding: 15px 0 60px;
+    height: auto;
+    position: relative;
+    &:after {
+      content: '';
+      background: url('../img/bg-motto.png') no-repeat 50% 0;
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      width: 994px;
+      height: 239px;
+      margin: 0 0 0 -497px;
+    }
+  }
+  .slogan {
+    width: 100%;
+    font-size: 38px;
+    line-height: 45px;
+    margin: 0 0 24px;
+    position: relative;
+    z-index: 2;
+  }
+  .motto {
+    .text {
+      font-size: 18px;
+      line-height: 22px;
+      margin: 0 0 8px;
+      .cross:after {
+        transform: scale(.61);
+        transform-origin: 0 23%;
+      }
+    }
+    .link {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  .sale-screen-blue {
+    z-index: 1;
+    padding: 10px 0 50px;
+    .snowballs {
+      .item01 {
+        margin: 0 20px 0 0;
+        width: 130px;
+        height: 130px;
+      }
+      .item02 {
+        margin: 0 20px 0 0;
+        width: 81px;
+        height: 81px;
+      }
+      .item03 {
+        width: 54px;
+        height: 54px;
+        margin: 0;
+      }
+    }
+  }
+  .pre-description {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 20px;
+    br {
+      display: none;
+    }
+  }
+  .description {
+    font-size: 22px;
+    line-height: 34px;
+    margin: 0 0 30px;
+  }
+  .sale-screen-dark-blue {
+    .snowballs {
+      .item01 {
+        margin: 0 20px 0 0;
+        width: 130px;
+        height: 130px;
+      }
+      .item02 {
+        margin: 0 20px 0 0;
+        width: 81px;
+        height: 81px;
+      }
+      .item03 {
+        width: 54px;
+        height: 54px;
+        margin: 0;
+      }
+    }
+  }
+  .btn {
+    font-size: 14px;
+    padding: 16px 25px 16px;
+  }
+  .link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      margin: 0 0 16px;
+    }
+  }
+  .sale-screen-dark-blue {
+    padding: 40px 0 40px;
+  }
+  .sale-screen-img {
+    background: #eff2f7;
+    padding: 40px 0 80px;
+    &:before {
+      background: #eff2f7;
+    }
+    .text-block {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .share-details {
+    &-title {
+      font-size: 22px;
+    }
+  }
+  .screen07 {
+    padding: 20px 0;
+  }
+}
